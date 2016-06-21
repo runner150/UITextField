@@ -12,11 +12,10 @@
 		90EBE6C21D1861A30034BD85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EBE6C01D1861A30034BD85 /* Main.storyboard */; };
 		90EBE6C41D1861A40034BD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EBE6C31D1861A40034BD85 /* Assets.xcassets */; };
 		90EBE6C71D1861A40034BD85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EBE6C51D1861A40034BD85 /* LaunchScreen.storyboard */; };
-		90EBE6D11D1874550034BD85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EBE6D01D1874550034BD85 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90EBE6B41D1861A30034BD85 /* UITextField2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextField2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EBE6B41D1861A30034BD85 /* UITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EBE6BA1D1861A30034BD85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90EBE6BB1D1861A30034BD85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		90EBE6BD1D1861A30034BD85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -25,7 +24,6 @@
 		90EBE6C31D1861A40034BD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EBE6C61D1861A40034BD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EBE6C81D1861A40034BD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90EBE6D01D1874550034BD85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,7 @@
 		90EBE6B51D1861A30034BD85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90EBE6B41D1861A30034BD85 /* UITextField2.app */,
+				90EBE6B41D1861A30034BD85 /* UITextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +65,6 @@
 				90EBE6C51D1861A40034BD85 /* LaunchScreen.storyboard */,
 				90EBE6C81D1861A40034BD85 /* Info.plist */,
 				90EBE6B71D1861A30034BD85 /* Supporting Files */,
-				90EBE6D01D1874550034BD85 /* main.m */,
 			);
 			path = UITextField;
 			sourceTree = "<group>";
@@ -82,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90EBE6B31D1861A30034BD85 /* UITextField2 */ = {
+		90EBE6B31D1861A30034BD85 /* UITextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90EBE6CB1D1861A40034BD85 /* Build configuration list for PBXNativeTarget "UITextField2" */;
+			buildConfigurationList = 90EBE6CB1D1861A40034BD85 /* Build configuration list for PBXNativeTarget "UITextField" */;
 			buildPhases = (
 				90EBE6B01D1861A30034BD85 /* Sources */,
 				90EBE6B11D1861A30034BD85 /* Frameworks */,
@@ -94,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = UITextField2;
+			name = UITextField;
 			productName = UITextField;
-			productReference = 90EBE6B41D1861A30034BD85 /* UITextField2.app */;
+			productReference = 90EBE6B41D1861A30034BD85 /* UITextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90EBE6AF1D1861A30034BD85 /* Build configuration list for PBXProject "UITextField2" */;
+			buildConfigurationList = 90EBE6AF1D1861A30034BD85 /* Build configuration list for PBXProject "UITextField" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90EBE6B31D1861A30034BD85 /* UITextField2 */,
+				90EBE6B31D1861A30034BD85 /* UITextField */,
 			);
 		};
 /* End PBXProject section */
@@ -151,7 +148,6 @@
 			files = (
 				90EBE6BF1D1861A30034BD85 /* ViewController.m in Sources */,
 				90EBE6BC1D1861A30034BD85 /* AppDelegate.m in Sources */,
-				90EBE6D11D1874550034BD85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +264,7 @@
 				INFOPLIST_FILE = UITextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.UITextField;
-				PRODUCT_NAME = UITextField2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -279,14 +275,14 @@
 				INFOPLIST_FILE = UITextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.UITextField;
-				PRODUCT_NAME = UITextField2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90EBE6AF1D1861A30034BD85 /* Build configuration list for PBXProject "UITextField2" */ = {
+		90EBE6AF1D1861A30034BD85 /* Build configuration list for PBXProject "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90EBE6C91D1861A40034BD85 /* Debug */,
@@ -295,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90EBE6CB1D1861A40034BD85 /* Build configuration list for PBXNativeTarget "UITextField2" */ = {
+		90EBE6CB1D1861A40034BD85 /* Build configuration list for PBXNativeTarget "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90EBE6CC1D1861A40034BD85 /* Debug */,
